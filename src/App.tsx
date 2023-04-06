@@ -1,6 +1,7 @@
 import './App.css';
 
-import DivergentBarChart from './pages/DivergentBarChart';
+// import DivergentBarChart from './pages/DivergentBarChart';
+import IntervalBarChart from './pages/IntervalBarChart';
 
 // import BarChart from './pages/BarChart';
 // import HorizontalBarChart from './pages/HorizontalBarChart';
@@ -13,7 +14,9 @@ function App() {
       {/* 水平条形图 */}
       {/* <HorizontalBarChart></HorizontalBarChart> */}
       {/* 发散条形图 */}
-      <DivergentBarChart></DivergentBarChart>
+      {/* <DivergentBarChart></DivergentBarChart> */}
+      {/* 区间条形图 */}
+      <IntervalBarChart></IntervalBarChart>
     </div>
   );
 }
